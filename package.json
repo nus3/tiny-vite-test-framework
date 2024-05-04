@@ -1,0 +1,20 @@
+{
+  "name": "tiny-vite-test-framework",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch",
+    "fix": "biome check --apply .",
+    "lint": "biome lint ."
+  },
+  "author": "nus3",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.7.2",
+    "tsx": "4.9.0",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "vite": "5.2.11"
+  }
+}
