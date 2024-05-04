@@ -1,6 +1,7 @@
 {
   "name": "tiny-vite-test-framework",
   "version": "0.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch",
@@ -11,6 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "1.7.2",
+    "@types/node": "20.12.8",
     "tsx": "4.9.0",
     "typescript": "5.4.5"
   },
